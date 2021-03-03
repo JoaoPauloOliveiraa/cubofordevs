@@ -1,0 +1,5 @@
+<div *ngFor="let colunas of linhas" class="linha">
+     <button (click)="bombaOuBandeira(item)" *ngFor="let item of colunas" class="linha">Clique aqui - {{item.tipo}}</button>  
+</div>
+
+<h1>Você possui {{pontos}} pontos</h1>

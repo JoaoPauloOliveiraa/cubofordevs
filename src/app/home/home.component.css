@@ -1,0 +1,9 @@
+ /* .linha{
+    width: 200px;    
+}  */
+
+ .linha button{
+    display: inline;
+    margin: 5px; 
+    border: solid 1px;
+}
